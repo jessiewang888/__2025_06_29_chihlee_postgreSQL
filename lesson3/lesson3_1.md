@@ -8,3 +8,4 @@ CREATE TABLE [IF NOT EXISTS] table_name (
    table_constraints
 );
 ```
+### 第2標法
