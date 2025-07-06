@@ -5,6 +5,15 @@ ALTER TABLE world
 ALTER COLUM 日期 TYPE DATE
 USING 日期::DATE;
 ```
+```sql
+select 洲名,國家,日期,總確診數,總死亡數,新增死亡數,總人口數
+from world;
+```
+```sql
+select 國家,日期,總確診數
+from world 
+where 國家 = '台灣';
+```
 
 ## 問題:
 
