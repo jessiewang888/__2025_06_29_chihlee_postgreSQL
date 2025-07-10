@@ -17,3 +17,37 @@ CREATE TABLE IF NOT EXISTS student(
    major VARCHAR(20) UNIQUE
 );
 、、、
+
+## 刪除資料表
+
+、、、sql
+DROP TABLE IF EXISTS student;
+、、、
+
+## 新增1筆資料
+
+、、、sql
+INSERT INTO student(name, major)
+VALUES ('呂育君','歷史');
+、、、
+
+## 新增多筆資料
+
+```sql
+INSERT INTO student(name, major)
+VALUES ('小柱','生物'),('信忠','英語');
+```
+
+## 取得資料
+
+```sql
+SELECT
+  select_list
+FROM
+  table_name
+WHERE
+  condition
+ORDER BY
+  sort_expression;
+
+```
