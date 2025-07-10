@@ -2,7 +2,7 @@
 
 ```sql
 ALTER TABLE world
-ALTER COLUM 日期 TYPE DATE
+ALTER COLUMN 日期 TYPE DATE
 USING 日期::DATE;
 ```
 ```sql
