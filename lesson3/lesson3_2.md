@@ -51,3 +51,37 @@ ORDER BY
   sort_expression;
 
 ```
+
+```sql
+SELECT student_id, name, major
+FROM  student;
+
+SELECT  name, major
+FROM  student;
+
+SELECT  *
+FROM  student
+WHERE name='信忠';
+
+SELECT  *
+FROM  student
+ORDER BY student_id DESC;
+
+SELECT  *
+FROM  student
+ORDER BY student_id DESC
+LIMIT 3;
+```
+
+```sql
+UPDATE student
+SET name = '阿柱',
+    major = '數學'
+WHERE student_id = 2;
+
+DELETE FROM student
+WHERE student_id = 2;
+
+DELETE FROM student
+WHERE student_id in (1, 3, 4);
+```
